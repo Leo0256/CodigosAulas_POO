@@ -6,7 +6,8 @@ public class App {
 		Empresa en = new Empresa("90909090","AbC Ltda.");
 		en.setRazaoSocial("QwErt Ltda.");
 		
-		System.out.println("Cnpj: " + en.getCnpj() 
-			+ "\nRazão Social: " + en.getRazaoSocial());
+		System.out.println(
+				"Cnpj: " + en.getCnpj() +
+				"\nRazão Social: " + en.getRazaoSocial());
 	}
 }
